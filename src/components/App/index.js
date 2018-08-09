@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Intro from '../Intro'
 import 'whatwg-fetch'
-import Series from '../../containers/series'
-
+import Main from '../Main'
 //functional component
 //custom component should be Capitalized
 //Lowercase are built in components
@@ -17,8 +15,8 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">Tv Series List</h1>
         </header>
-        <Intro message="Here you can find all of your most loved series"/>
-        <Series/>
+        
+        <Main/>
       </div>
     );
   }
