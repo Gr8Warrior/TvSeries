@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import Intro from './components/Intro'
 //functional component
 //custom component should be Capitalized
 //Lowercase are built in components
-const Intro = (props) => (
-        <p className="App-intro">
-          Our first functional Component
-        </p>
 
-)
 
 class App extends Component {
   render() {
