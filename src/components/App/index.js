@@ -3,6 +3,7 @@ import './App.css';
 import Intro from '../Intro'
 import 'whatwg-fetch'
 import Series from '../../containers/series'
+
 //functional component
 //custom component should be Capitalized
 //Lowercase are built in components
